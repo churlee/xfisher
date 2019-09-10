@@ -1,7 +1,6 @@
 package service
 
 import (
-	"errors"
 	uuid "github.com/satori/go.uuid"
 	"lilith/common"
 	"lilith/dao"
@@ -27,9 +26,6 @@ func (s *UserService) GetUserPwdByUsername(username string) (entity.UserPwd, err
 	if e != nil {
 		log.Println(e)
 		return pwd, e
-	}
-	if pwd.Username == "" {
-		return pwd, errors.New("Username is empty......")
 	}
 	return pwd, e
 }
