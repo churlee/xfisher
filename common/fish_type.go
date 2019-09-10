@@ -1,0 +1,16 @@
+package common
+
+const V2EX = "v2ex"
+const KR = "kr"
+const BiliBili = "bili"
+const Weibo = "weibo"
+const Baidu = "baidu"
+const WeiXin = "weixin"
+const ZhiHu = "zhihu"
+const QiDian = "qidian"
+const DangDang = "dangdang"
+const Tv = "tv"
+const ItHome = "ithome"
+const Movie = "movie"
+const Github = "github"
+const GuoKe = "guoke"
