@@ -11,8 +11,7 @@ var (
 )
 
 func init() {
-	//dataSourceName := "root:YPlove156520.@tcp(localhost:3306)/yp_nav?charset=utf8mb4"
-	dataSourceName := "root:YPlove156520.@tcp(114.115.161.107:3306)/yp_nav?charset=utf8mb4"
+	dataSourceName := "root:123456.@tcp(localhost:3306)/yp_nav?charset=utf8mb4"
 	connection, e := sql.Open("mysql", dataSourceName)
 	if e != nil {
 		log.Println(e)
